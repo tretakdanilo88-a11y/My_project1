@@ -1,1 +1,30 @@
-
+/* Скидання базових відступів */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body {
+font-family: 'Arial', sans-serif; /* Змініть на шрифт з Figma */
+color: #333333;
+background-color: #ffffff;
+}
+/* Навігація */
+.main-header {
+background-color: #f8f9fa;
+padding: 15px 30px;
+}
+.nav-container {
+display: block; /* Замість flex для Weasyprint, але у себе використовуйте flex */
+}
+/* Головний блок */
+.section {
+padding: 60px 20px;
+text-align: center;
+}
+/* Адаптивність для телефонів */
+@media (max-width: 768px) {
+.section {
+padding: 40px 15px;
+}
+}
